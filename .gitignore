@@ -1,0 +1,14 @@
+# raw third-party data: never commit (see docs/DATASETS.md)
+data/external/
+
+# cached features derived from the raw data: check each licence before committing
+data/processed/
+
+# files the parked simulator writes when it logs or saves
+legacy/robot_simulator_8/data/
+legacy/robot_simulator_8/models/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
